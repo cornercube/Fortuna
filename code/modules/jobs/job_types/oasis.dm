@@ -637,15 +637,14 @@ Mayor
 	)
 
 /datum/outfit/loadout/groundskeeper
-	name = "groundskeeper"
-	mask = /obj/item/clothing/mask/facewrap
+	name = "Groundskeeper"
+	head = /obj/item/clothing/head/soft/grey
 	belt = /obj/item/storage/belt
 	suit = /obj/item/clothing/under/f13/mechanic
 	gloves = /obj/item/clothing/gloves/color/yellow
 	backpack_contents = list(/obj/item/storage/bag/trash = 1, /obj/item/reagent_containers/spray/cleaner = 1,
 	/obj/item/gun/ballistic/revolver/hobo/piperifle = 1,
 	/obj/item/ammo_box/a556/stripper = 2,
-
 	)
 
 /datum/outfit/loadout/artisan
@@ -659,7 +658,7 @@ Mayor
 	)
 
 /datum/outfit/loadout/outdoorsman
-	name = "outdoorsman"
+	name = "Outdoorsman"
 	head = /obj/item/clothing/head/f13/beaver
 	suit = /obj/item/clothing/suit/f13/cowboybvest
 	uniform = /obj/item/clothing/under/f13/bartenderalt
@@ -696,7 +695,7 @@ Mayor
 	///we should find something to do with this
 */
 /datum/outfit/loadout/singer
-	name = "Saloon Singer"
+	name = "Singer"
 	shoes = /obj/item/clothing/shoes/laceup
 	backpack_contents = list(/obj/item/clothing/under/f13/classdress = 1,
 	/obj/item/clothing/under/suit/black_really = 1,
