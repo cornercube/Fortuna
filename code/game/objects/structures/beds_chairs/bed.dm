@@ -51,6 +51,7 @@
 	name = "simple wooden bed"
 	desc = "Wooden frame with a mattress"
 	icon_state = "bed_wood"
+	var/buildstacktype = /obj/item/stack/sheet/mineral/wood
 	max_integrity = 80
 
 /obj/structure/bed/old
